@@ -18,8 +18,8 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Program 1 Test 1
-        setup-command: "`javac ./MyInfo.java`"
-        command: "`java MyInfo`"
+        setup-command: javac MyInfo.java
+        command: java MyInfo
         input: ''
         expected-output: |-
           My Name is Mary Jones.
